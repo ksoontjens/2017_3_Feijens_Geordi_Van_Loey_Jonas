@@ -78,7 +78,7 @@ public class HelloTVXlet implements Xlet,UserEventListener, ObserverInterface, H
         EventManager  mngr = EventManager.getInstance();
         UserEventRepository repo = new UserEventRepository("Keys");
         repo.addAllArrowKeys();
-        repo.addKey(HRcEvent.VK_SPACE);
+        repo.addKey(HRcEvent.VK_ENTER);
         mngr.addUserEventListener(this, repo);     
     }
 

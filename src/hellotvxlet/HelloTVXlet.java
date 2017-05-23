@@ -87,7 +87,7 @@ public class HelloTVXlet implements Xlet,UserEventListener, ObserverInterface, H
       if(e.getType() == KeyEvent.KEY_PRESSED){
       switch(e.getCode()){
            
-            case HRcEvent.VK_SPACE:  
+            case HRcEvent.VK_ENTER:  
                 if (space == false)
                 {
                     publisher.register(bal);
